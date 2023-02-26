@@ -53,7 +53,7 @@ To deploy this project run
 
 ## Tech Stack
 
-HTML, CSS, JavaScript
+HTML, CSS, JavaScript , React , react-icons to build this project
 
 ## Features
 
