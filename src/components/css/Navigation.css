@@ -1,0 +1,107 @@
+/* css for Navbar component */
+.navbar {
+  display: flex;
+
+  height: 60px;
+  /* width: 1920px; */
+  width: auto;
+  margin-left: 60px;
+  top: 30px;
+  border-radius: 0px;
+
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  /* Snow */
+
+  background: #ffffff;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+/* css for menu  */
+.menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 1.5rem;
+  color: #333;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+/* css for logo */
+
+.logo-container {
+  display: flex;
+}
+#logo {
+  background-image: url("/public/Vector.png");
+  height: 40px;
+  width: 40px;
+  left: 0.32989501953125px;
+  top: 20px;
+}
+
+/* css for search bar */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-right: 0.5rem;
+  width: 200px;
+}
+
+.search-icon {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.option-container {
+  display: flex;
+  align-items: center;
+}
+
+ /* css for profile icon */
+.profile-icon {
+  font-size: 1.5rem;
+  color: #333;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.option-icon {
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}

@@ -1,0 +1,137 @@
+/* Progress Widget Component circle css */
+#widget {
+  display: flex;
+  /* align-items: flex-start; */
+  padding: 0px;
+  gap: 30px;
+
+  position: relative;
+  width: 800px;
+  height: 80px;
+  left: 60px;
+  top: 310px;
+  /* background-color: #00b929; */
+}
+
+/* css to create two box */
+.widget-box {
+  display: flex;
+  width: 300px;
+  height: 78px;
+  background-color: white;
+  margin-right: 50px;
+
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 18px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+/* css for creating circle */
+.ui-widgets1 {
+  position: relative;
+  display: inline-block;
+  /* display: flex; */
+  width: 78px;
+  height: 78px;
+  border-radius: 99px;
+  margin: 1.5rem;
+  border: 4px solid #dbdff1;
+  border-right-color: #023aff;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Apply css properties to the second
+    child of ui-widgets class */
+.ui-widgets2 {
+  position: relative;
+  display: inline-block;
+  width: 78px;
+  height: 78px;
+  border-radius: 99px;
+  margin: 1.5rem;
+  text-align: center;
+  box-sizing: border-box;
+  border: 4px solid #dbdff1;
+
+  border-top-color: #00b929;
+  border-right-color: #00b929;
+  border-bottom-color: #00b929;
+}
+
+/* Apply css properties to ui-widgets
+   class and ui-values class */
+.ui-widgets1 .ui-values {
+  position: absolute;
+  height: 37.41px;
+  left: 14.77%;
+  right: 14.38%;
+  top: calc(50% - 37.41px / 2 + 0.7px);
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.112222px;
+
+  color: #171725;
+}
+.ui-widgets2 .ui-values {
+  position: absolute;
+  height: 37.41px;
+  left: 14.77%;
+  right: 14.38%;
+  top: calc(50% - 37.41px / 2 + 0.7px);
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.112222px;
+
+  color: #171725;
+}
+
+.amount {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  letter-spacing: 0.44px;
+
+  /* Night Blue */
+
+  color: #383874;
+}
+
+.details {
+  width: 102.25px;
+  height: 24.94px;
+
+  /* Body / Body 1 */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.44px;
+
+  /* Night Blue */
+
+  color: #383874;
+}

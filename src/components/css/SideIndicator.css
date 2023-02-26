@@ -1,0 +1,128 @@
+/* Side indicators */
+
+.sideIndicator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+
+  position: relative;
+  width: 218px;
+  height: 270px;
+  left: 60px;
+  top: 260px;
+}
+.info {
+  display: flex;
+}
+
+/* css for images showing */
+.icon1 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+
+  background: #8676ff;
+  border-radius: 20px;
+}
+.img1 {
+  background-image: url("/public/earning.png");
+  height: 50%;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+}
+
+.icon2 {
+  /* Background */
+
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+
+  background: #66c8ff;
+  border-radius: 20px;
+}
+.img2 {
+  background-image: url("/public/sales.png");
+  height: 50%;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+}
+
+.icon3 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+
+  background: #ff9066;
+  border-radius: 20px;
+}
+
+.img3 {
+  background-image: url("/public/purchase.png");
+  height: 50%;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+}
+
+/* css for data showing */
+.data-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.name {
+  width: 122px;
+  height: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  align-items: center;
+  letter-spacing: 0.44px;
+
+  /* Night Blue */
+
+  color: #383874;
+}
+
+.value {
+  /* Value */
+
+  width: 84px;
+  height: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.15px;
+  /* Night Blue */
+  color: #383874;
+}
