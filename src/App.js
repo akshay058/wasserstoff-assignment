@@ -1,4 +1,3 @@
-import "./App.css";
 import Navigation from "./components/Navigation";
 import SideIndicator from "./components/SideIndicator";
 import Title from "./components/Title";

@@ -1,3 +1,21 @@
+# WSTF FRONT-END HACKATHON
+
+A Hackathon challenge given to finish , have some figma Template . My task was to implement it as per instruction.
+
+Used HTML, CSS, JavaScript , React to build this project.
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+  npm start
+```
+
+Steps
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,57 +32,101 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![App Screenshot](/assignment.jpg?raw=true "Optional Title")
 
-### `npm run build`
+## Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is deployed on :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Live view:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To deploy this project run
 
-### `npm run eject`
+```bash
+  npm run deploy
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+HTML, CSS, JavaScript
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Navbar
+- SideIndicator
+- Title
+- Widget Circle
 
-## Learn More
+## Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+|-- wasserstoff-assignment
+|-- .gitignore
+|-- package-lock.json
+|-- package.json
+|-- README.md
+|-- public
+| |-- earning.png
+| |-- favicon.ico
+| |-- index.html
+| |-- logo.png
+| |-- logo192.png
+| |-- logo512.png
+| |-- manifest.json
+| |-- purchase.png
+| |-- robots.txt
+| |-- sales.png
+| |-- Vector.png
+|-- src
+|-- App.js
+|-- index.css
+|-- index.js
+|-- components
+|-- Navigation.js
+|-- SideIndicator.js
+|-- Title.js
+|-- Widget.js
+|-- css
+|-- Navigation.css
+|-- SideIndicator.css
+|-- Title.css
+|-- Widget.css
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Run Locally
 
-### Code Splitting
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  git clone https://link-to-project
+```
 
-### Analyzing the Bundle Size
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  cd my-project
+```
 
-### Making a Progressive Web App
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+  npm install
+```
 
-### Advanced Configuration
+Start the server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+  npm run start
+```
 
-### Deployment
+## Running Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To run tests, run the following command
 
-### `npm run build` fails to minify
+```bash
+  npm run test
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Author
+
+- [@Akshay](https://www.github.com/akshay058)
