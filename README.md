@@ -43,9 +43,11 @@ Now this all components are rendered on App component and app component is rende
 
 This project is deployed on :
 
-Live view:
+# Live view:
 
-To deploy this project run
+https://akshay-wasserstoff.netlify.app/
+
+# To deploy this project run
 
 ```bash
   npm run deploy
