@@ -2,7 +2,7 @@
 
 A Hackathon challenge given to finish , have some figma Template . My task was to implement it as per instruction.
 
-Used HTML, CSS, JavaScript , React to build this project.
+Used HTML, CSS, JavaScript , React , react-icons to build this project.
 
 ## Installation
 
@@ -14,13 +14,13 @@ Install my-project with npm
   npm start
 ```
 
-Steps
+## How to Approach
+
+Steps:
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
@@ -31,6 +31,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+Now create Different Components to render it over a same page. As I created 4 components Navbar, SideIndicator, Title, Widget Circle.
+Now this all components are rendered on App component and app component is rendered at index which show view Live.
 
 ## Screenshots
 
